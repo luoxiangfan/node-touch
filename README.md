@@ -1,2 +1,2 @@
 # node-touch
-touch(1) for node
+`node-touch` is an alias of [`touch`](https://www.npmjs.com/package/touch) contains built-in type declarations, with CJS/ESM mode.

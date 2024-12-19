@@ -1,0 +1,48 @@
+{
+  "name": "@lxf2513/node-touch",
+  "version": "1.0.0",
+  "description": "`node-touch` is an alias of `touch`.",
+  "type": "module",
+  "types": "./index.d.ts",
+  "bin": {
+    "node-touch": "./bin.js"
+  },
+  "main": "./touch.js",
+  "exports": {
+    ".": {
+      "import": "./touch.js",
+      "require": "./touch.cjs",
+      "types": "./index.d.ts"
+    }
+  },
+  "files": [
+    "touch.js",
+    "touch.cjs",
+    "bin.js",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "release": "npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:luoxiangfan/node-touch.git"
+  },
+  "keywords": [
+    "touch",
+    "node touch",
+    "node-touch"
+  ],
+  "author": "lxf <infiniment@163.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luoxiangfan/node-touch/issues"
+  },
+  "homepage": "https://github.com/luoxiangfan/node-touch#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "touch": "^3.1.1"
+  }
+}
